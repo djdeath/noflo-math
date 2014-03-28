@@ -28,7 +28,8 @@
       "CalculateDistance": "components/CalculateDistance.coffee",
       "Compare": "components/Compare.coffee",
       "CountSum": "components/CountSum.coffee",
-      "Modulo": "components/Modulo.coffee"
+      "Modulo": "components/Modulo.coffee",
+      "Round": "components/Round.coffee"
     }
   },
   "dependencies": {

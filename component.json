@@ -20,6 +20,7 @@
     "components/Compare.coffee",
     "components/CountSum.coffee",
     "components/Modulo.coffee",
+    "components/Round.coffee",
     "lib/MathComponent.coffee",
     "index.js"
   ],
@@ -38,7 +39,8 @@
       "CalculateDistance": "components/CalculateDistance.coffee",
       "Compare": "components/Compare.coffee",
       "CountSum": "components/CountSum.coffee",
-      "Modulo": "components/Modulo.coffee"
+      "Modulo": "components/Modulo.coffee",
+      "Round": "components/Round.coffee"
     }
   }
 }
