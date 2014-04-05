@@ -22,6 +22,7 @@
     "components/CountSum.coffee",
     "components/Modulo.coffee",
     "components/Round.coffee",
+    "components/NanToZero.coffee",
     "lib/MathComponent.coffee",
     "index.js"
   ],
@@ -42,7 +43,8 @@
       "Compare": "components/Compare.coffee",
       "CountSum": "components/CountSum.coffee",
       "Modulo": "components/Modulo.coffee",
-      "Round": "components/Round.coffee"
+      "Round": "components/Round.coffee",
+      "NanToZero": "components/NanToZero.coffee"
     }
   }
 }
