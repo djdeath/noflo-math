@@ -20,6 +20,7 @@
     "icon": "plus-circle",
     "components": {
       "Add": "components/Add.coffee",
+      "Boundary": "components/Boundary.coffee",
       "Ceil": "components/Ceil.coffee",
       "Subtract": "components/Subtract.coffee",
       "Multiply": "components/Multiply.coffee",
