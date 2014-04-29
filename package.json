@@ -20,13 +20,18 @@
     "icon": "plus-circle",
     "components": {
       "Add": "components/Add.coffee",
+      "Boundary": "components/Boundary.coffee",
       "CalculateAngle": "components/CalculateAngle.coffee",
       "CalculateDistance": "components/CalculateDistance.coffee",
+      "Ceil": "components/Ceil.coffee",
       "Compare": "components/Compare.coffee",
       "CountSum": "components/CountSum.coffee",
       "Divide": "components/Divide.coffee",
       "Floor": "components/Floor.coffee",
       "Multiply": "components/Multiply.coffee",
+      "Modulo": "components/Modulo.coffee",
+      "NanToZero": "components/NanToZero.coffee",
+      "Round": "components/Round.coffee",
       "Subtract": "components/Subtract.coffee"
     }
   },

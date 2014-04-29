@@ -10,6 +10,8 @@
   },
   "scripts": [
     "components/Add.coffee",
+    "components/Boundary.coffee",
+    "components/Ceil.coffee",
     "components/Subtract.coffee",
     "components/Multiply.coffee",
     "components/Divide.coffee",
@@ -18,6 +20,9 @@
     "components/CalculateDistance.coffee",
     "components/Compare.coffee",
     "components/CountSum.coffee",
+    "components/Modulo.coffee",
+    "components/Round.coffee",
+    "components/NanToZero.coffee",
     "lib/MathComponent.coffee",
     "index.js"
   ],
@@ -28,13 +33,18 @@
     "icon": "plus-circle",
     "components": {
       "Add": "components/Add.coffee",
+      "Boundary": "components/Boundary.coffee",
       "CalculateAngle": "components/CalculateAngle.coffee",
       "CalculateDistance": "components/CalculateDistance.coffee",
+      "Ceil": "components/Ceil.coffee",
       "Compare": "components/Compare.coffee",
       "CountSum": "components/CountSum.coffee",
       "Divide": "components/Divide.coffee",
       "Floor": "components/Floor.coffee",
       "Multiply": "components/Multiply.coffee",
+      "Modulo": "components/Modulo.coffee",
+      "NanToZero": "components/NanToZero.coffee",
+      "Round": "components/Round.coffee",
       "Subtract": "components/Subtract.coffee"
     }
   }

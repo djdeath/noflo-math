@@ -1,6 +1,6 @@
 noflo = require 'noflo'
 
-class Floor extends noflo.Component
+class Ceil extends noflo.Component
   constructor: ->
     @inPorts =
       in: new noflo.Port 'number'
@@ -12,7 +12,7 @@ class Floor extends noflo.Component
       @outPorts.out.beginGroup group
     @inPorts.in.on 'data', (data) =>
       return unless @outPorts.out.isAttached()
-      @outPorts.out.send Math.floor data
+      @outPorts.out.send Math.ceil data
     @inPorts.in.on 'endgroup', =>
       return unless @outPorts.out.isAttached()
       @outPorts.out.endGroup()
@@ -20,4 +20,4 @@ class Floor extends noflo.Component
       return unless @outPorts.out.isAttached()
       @outPorts.out.disconnect()
 
-exports.getComponent = -> new Floor
+exports.getComponent = -> new Ceil
